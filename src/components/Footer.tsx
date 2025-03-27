@@ -14,7 +14,7 @@ const Footer = () => {
     <ul className="flex flex-wrap space-x-4 sm:space-x-4">
       <li>
         <img
-          src="https://s3-alpha-sig.figma.com/img/2956/76ac/ea822f7c9d04df5a070e4837dcdd4f97?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WNF-2OOMVr1tkHH7jrW7S32moOm6xvUWyd0Y17GyNyVr3jVNMiECyfZCF~poEZ0ORXAg1DAF~wjkDOBuiPQ~mwrgQCSnZgu3leYCVi2RU1c1eXma8SNvHKKWD-8ka-FsEFCp0O0BDb9D7qJFJqB0Q2NI3SaaitXwnBLVMk7rOgp99M2HfMvKcYM9vKg1zs25V13Dn2Hu4jF00Ewts~lYB26n9Op11BTqDF2EEBWNZz~V~X7EqhZFQGr8PDMlnkoXkvuL0sl1zTqPGUPj~mO5xLTqt~0NuyKCHWeGuLDy~04GKgKb0etgpZuMst9wFqcK59tKluEJIkiLhR8f2UR-Zg__"
+          src="/images/ootn/ootn-logo.png"
           alt="ootn-logo"
           className="h-8 w-auto"
         />
