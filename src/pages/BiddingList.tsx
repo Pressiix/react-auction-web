@@ -9,10 +9,6 @@ import { useAuth } from "../hooks/useAuth";
 import { getCurrentUnixTimestamp } from "../utils/DateTimeUtils";
 import { useUserActivities } from "../hooks/useUserActivities";
 import { useAppActivities } from "../hooks/useAppActivities";
-import {
-  invalidateBidItems,
-  invalidateBidItemColors,
-} from "../services/CacheService";
 import { useBidItems } from "../hooks/useBidItems";
  
 interface ItemCardProps {
