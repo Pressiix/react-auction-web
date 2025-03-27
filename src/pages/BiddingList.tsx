@@ -9,7 +9,6 @@ import { useAuth } from "../hooks/useAuth";
 import { getCurrentUnixTimestamp } from "../utils/DateTimeUtils";
 import { useUserActivities } from "../hooks/useUserActivities";
 import { useAppActivities } from "../hooks/useAppActivities";
-import { BidService } from "../services/BidService";
 import {
   invalidateBidItems,
   invalidateBidItemColors,
@@ -55,28 +54,6 @@ const BiddingList: React.FC = () => {
     console.log("bidItemList",bidItemList)
     console.log("bidItemColorList",bidItemColorList)
   },[bidItemList,bidItemColorList])
-  // useEffect(() => {
-  //   const fetchMasterData = async () => {
-  //     // setIsLoading(true);
-  //     if (Object.keys(bidItemList).length === 0) {
-  //       invalidateBidItems();
-  //       invalidateBidItemColors();
-  //       const bidItems = await BidService.getBidItems();
-  //       setBidItemList(bidItems);
- 
-  //       if (Object.keys(bidItemColorList).length === 0) {
-  //         const bidItemColors = await BidService.getBidItemColors();
-  //         setBidItemColorList(bidItemColors);
-  //       }
-  //     }
-  //     setIsLoading(false);
-  //   };
- 
-  //   fetchMasterData();
-  // }, [
-  //   Object.keys(bidItemList).length === 0,
-  //   Object.keys(bidItemColorList).length === 0,
-  // ]);
  
   // Add user activities query
   const { data: userActivities } = useUserActivities(
