@@ -1,4 +1,6 @@
 toml
+name = "react-auction"
+compatibility_date = "2025-03-28"
 [[redirects]]
   from = "/*"
   to = "/index.html"
